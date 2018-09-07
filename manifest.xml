@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="vo-ansible" fetch="https://forge-git.viaccess.fr/E2E/vo-ansible"/>
+    <remote name="ansibke-platform" fetch="https://forge-git.viaccess.fr/E2E/ansible-platform"/>
+
+    <default revision="master" remote="github" sync-j="8"/>
+
+    <project name="JobCatcher.git" remote="github" path="job/jobcatcher" revision="unstable">
+    <copyfile src="README.md" dest="README.md" />
+    </project>
+
+    <project name="vo-ansible.git" remote="vo-ansible" path="vo-ansible" />
+    <project name="ansibke-platform.git" remote="ansibke-platform" path="ansibke-platform" />
+    
+
+</manifest>
